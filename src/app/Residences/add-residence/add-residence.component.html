@@ -1,0 +1,6 @@
+<form [formGroup]="residenceForm" (ngSubmit)="onSubmit()">
+  <button type="button" (click)="addApartment()">Ajouter un appartement</button>
+  <div formArrayName="apartments" *ngFor="let apartment of apartments.controls; let i = index">
+    </div>
+  <button type="submit">Enregistrer</button>
+</form>

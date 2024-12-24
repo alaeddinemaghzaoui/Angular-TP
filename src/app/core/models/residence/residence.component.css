@@ -1,0 +1,79 @@
+/* Search Container */
+.search-container {
+  margin: 20px auto;
+  max-width: 500px;
+  display: flex; /* Arrange label and input side-by-side */
+  align-items: center; /* Vertically align content */
+}
+
+.search-container label {
+  flex: 1; /* Make label take up some space */
+  margin-right: 10px; /* Add spacing between label and input */
+}
+
+/* Search Input */
+#search {
+  flex: 2; /* Make input take up more space */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Residence List */
+.residences-list {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+  margin: 20px 0;
+}
+
+.residences-list li {
+  margin-bottom: 10px;
+}
+
+/* Residence Card */
+.residence-card {
+  margin: 15px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+}
+
+.residence-card h2 {
+  margin-bottom: 10px;
+}
+
+/* Residence Status */
+.residence-status {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.status-disponible {
+  color: green;
+}
+
+.status-construction {
+  color: orange;
+}
+
+.status-vendu {
+  color: red;
+}
+
+/* Residence Actions */
+.residence-actions {
+  display: flex;
+  justify-content: space-between; /* Space buttons evenly */
+}
+
+.residence-actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.residence-actions button:hover {
+  background-color: #eee;
+}
